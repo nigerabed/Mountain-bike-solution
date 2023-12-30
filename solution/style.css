@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header-nav {
+  height: 3em;
+  width: 100%;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  margin: 1em;
+}
+#logo {
+  margin: 1em;
+}
+
+#banner-Gallery img {
+  height: 20em;
+  width: 100%;
+  object-fit: cover;
+}
+#banner-text {
+  position: absolute;
+  top: 5em;
+  color: rgb(219, 223, 227);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  width: 100%;
+  margin-top: 5em;
+}
+
+#banner-text h1 {
+  color: white;
+}
+
+#download-Btn {
+  height: 2.5em;
+  width: 9em;
+  background-color: transparent;
+  color: aliceblue;
+  border-color: aliceblue;
+  border-radius: 0.2em;
+}
+
+.container {
+  width: 1000px;
+}
+
+.talent-section {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 2em;
+  font-family: "Open Sans";
+}
+.spacebottom {
+  margin-bottom: 2em;
+}
+
+.talent-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.talent-text div {
+  width: 48%;
+}
+
+.omKlubben-section > div {
+  width: 50%;
+}
+
+.omKlubben-section {
+  display: flex;
+}
+.klubben-text {
+  background-color: #3c5f73;
+  padding: 2em 5em 5em 16em;
+  color: aliceblue;
+}
+.klubben-text h3 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+.klubben-text p {
+  font-size: 15px;
+}
+.icon-text-div {
+  display: flex;
+  width: 100%;
+}
+.icon-Div {
+  padding: 0em 16em 5em 0em;
+}
+.icon-Div li {
+  list-style-type: none;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+
+.icon-Div li p {
+  display: inline;
+}
+div.icons {
+  width: 4em;
+  padding-top: 2em;
+  padding-right: 1em;
+}
+.icons svg {
+  height: 2em;
+}
+
+.icon-Div h4 {
+  padding-bottom: 1em;
+}
+
+/* footer css starts */
+
+footer {
+  width: 100%;
+  background-color: rgb(42, 42, 42);
+  color: rgb(212, 213, 213);
+  display: flex;
+  justify-content: center;
+}
+
+#form-email {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(197, 196, 196);
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+.email-sec-Icons i {
+  font-size: 1.3em;
+  padding-left: 1em;
+}
+
+#besked-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+#besked-section > div {
+  width: 50%;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  align-items: end;
+}
+
+.input-box {
+  background-color: #d5d5d5;
+  width: 80%;
+
+  height: 2.5em;
+  border-radius: 0.4em;
+}
+
+input.nyhed {
+  width: 20em;
+  padding-left: 0.5em;
+}
+#formNyhed label {
+  padding-top: 0.6em;
+  margin-right: 0.5em;
+  font-size: 13px;
+}
+#formNyhed button {
+  margin-left: 0.5em;
+  height: 2.5em;
+}
+
+.btn {
+  background-color: #3c5f73;
+  color: #fff;
+  padding: 0 1em;
+  border-radius: 0.4em;
+}
+.statusMessage {
+  color: #e51010;
+  display: block;
+  font-size: .8em;
+}
+textarea {
+  background-color: #d5d5d5;
+  width: 80%;
+  height: 8em;
+  border-radius: 0.4em;
+}
+.besked-Btn {
+  width: 80%;
+  height: 2.5em;
+  border-radius: 0.4em;
+}
+
+#formNyhed {
+  display: flex;
+}
+
+#footer-right p{
+  font-size: 13px;
+  color: #989494 ;
+}
+
+
